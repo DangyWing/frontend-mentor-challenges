@@ -22,7 +22,8 @@ export function NewsletterForm() {
   const [submittedEmailAddress, setSubmittedEmailAddress] = useState<
     string | undefined
   >(undefined);
-  const [width, setWidth] = useState<number>(0);
+
+  const [width, setWidth] = useState<number>(376);
 
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
