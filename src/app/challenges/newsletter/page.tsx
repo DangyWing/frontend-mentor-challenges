@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   description: "Newsletter sign-up form with success message",
 };
 
+// todo: fix flash when page loads
+// todo: change favicon
+
 export default function Page() {
   return (
     <div>
