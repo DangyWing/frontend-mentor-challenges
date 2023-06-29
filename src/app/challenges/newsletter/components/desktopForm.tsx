@@ -55,7 +55,6 @@ export const DesktopForm = ({
           </div>
         </div>
       ) : (
-        // </div>
         <div className="rounded-3xl bg-white p-2">
           <div className="flex">
             <div className="mx-12">

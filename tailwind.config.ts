@@ -16,10 +16,18 @@ module.exports = {
       },
     },
     extend: {
-      listStyleImage:{
+      listStyleImage: {
         check: "url('/check.svg')",
       },
       colors: {
+        ageCalculator: {
+          purple: "hsl(259, 100%, 65%)",
+          lightRed: "hsl(0, 100%, 67%)",
+          offWhite: "hsl(0, 0%, 94%)",
+          lightGrey: "hsl(0, 0%, 86%)",
+          smokeyGrey: "hsl(0, 1%, 44%)",
+          offBlack: "hsl(0, 0%, 8%)",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
